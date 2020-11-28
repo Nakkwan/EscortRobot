@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GuiApplication</class>
+ <widget class="QDialog" name="GuiApplication">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+<<<<<<< HEAD
+    <width>750</width>
+    <height>398</height>
+=======
+    <width>800</width>
+    <height>480</height>
+>>>>>>> 4558e7379e7769e4818348ab740323ed488f2df4
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>291</width>
+<<<<<<< HEAD
+     <height>371</height>
+=======
+     <height>461</height>
+>>>>>>> 4558e7379e7769e4818348ab740323ed488f2df4
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Shop Name</string>
+    </attribute>
+    <widget class="QLineEdit" name="NameEdit">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+<<<<<<< HEAD
+       <y>20</y>
+=======
+       <y>30</y>
+>>>>>>> 4558e7379e7769e4818348ab740323ed488f2df4
+       <width>113</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="SearchButton">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+<<<<<<< HEAD
+       <y>20</y>
+=======
+       <y>30</y>
+>>>>>>> 4558e7379e7769e4818348ab740323ed488f2df4
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Search</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+<<<<<<< HEAD
+       <y>50</y>
+=======
+       <y>70</y>
+>>>>>>> 4558e7379e7769e4818348ab740323ed488f2df4
+       <width>67</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Info.</string>
+     </property>
+    </widget>
+<<<<<<< HEAD
+    <widget class="QPushButton" name="PathButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>300</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Find Path</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="EscortButton">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>300</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Escort Start</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_2">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>271</width>
+       <height>221</height>
+=======
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>251</width>
+       <height>271</height>
+>>>>>>> 4558e7379e7769e4818348ab740323ed488f2df4
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+<<<<<<< HEAD
+        <x>20</x>
+        <y>10</y>
+=======
+        <x>10</x>
+        <y>20</y>
+>>>>>>> 4558e7379e7769e4818348ab740323ed488f2df4
+        <width>91</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Shop Name :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+<<<<<<< HEAD
+        <x>20</x>
+        <y>40</y>
+=======
+        <x>10</x>
+        <y>50</y>
+>>>>>>> 4558e7379e7769e4818348ab740323ed488f2df4
+        <width>81</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Category :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Imagelabel">
+      <property name="geometry">
+       <rect>
+<<<<<<< HEAD
+        <x>20</x>
+        <y>70</y>
+        <width>231</width>
+        <height>131</height>
+=======
+        <x>10</x>
+        <y>80</y>
+        <width>221</width>
+        <height>171</height>
+>>>>>>> 4558e7379e7769e4818348ab740323ed488f2df4
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="shopnamelab">
+      <property name="geometry">
+       <rect>
+<<<<<<< HEAD
+        <x>130</x>
+        <y>10</y>
+=======
+        <x>120</x>
+        <y>20</y>
+>>>>>>> 4558e7379e7769e4818348ab740323ed488f2df4
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Catelab">
+      <property name="geometry">
+       <rect>
+<<<<<<< HEAD
+        <x>130</x>
+        <y>40</y>
+=======
+        <x>120</x>
+        <y>50</y>
+>>>>>>> 4558e7379e7769e4818348ab740323ed488f2df4
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+<<<<<<< HEAD
+=======
+    <widget class="QPushButton" name="PathButton">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>380</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Find Path</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="EscortButton">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>380</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Escort Start</string>
+     </property>
+    </widget>
+>>>>>>> 4558e7379e7769e4818348ab740323ed488f2df4
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Category</string>
+    </attribute>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Restaurant</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Caffe</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Clothes</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Accesories</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>toilet</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="Catesearch">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>30</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Search</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="Shoptable">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>80</y>
+       <width>261</width>
+       <height>192</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="Showinfo">
+     <property name="geometry">
+      <rect>
+<<<<<<< HEAD
+       <x>190</x>
+       <y>280</y>
+=======
+       <x>180</x>
+       <y>290</y>
+>>>>>>> 4558e7379e7769e4818348ab740323ed488f2df4
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Show Info</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+<<<<<<< HEAD
+     <x>470</x>
+     <y>10</y>
+=======
+     <x>480</x>
+     <y>40</y>
+>>>>>>> 4558e7379e7769e4818348ab740323ed488f2df4
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Escort Robot</string>
+   </property>
+  </widget>
+<<<<<<< HEAD
+  <widget class="QLabel" name="currentLoc_label">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>20</y>
+=======
+  <widget class="QLabel" name="maplabel">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>120</y>
+     <width>384</width>
+     <height>288</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>384</width>
+     <height>288</height>
+    </size>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="currentLoc_label">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>430</y>
+>>>>>>> 4558e7379e7769e4818348ab740323ed488f2df4
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../resources/images.qrc">:/Icon/Icon_currentLoc.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="reload_label">
+   <property name="geometry">
+    <rect>
+<<<<<<< HEAD
+     <x>710</x>
+     <y>20</y>
+=======
+     <x>740</x>
+     <y>430</y>
+>>>>>>> 4558e7379e7769e4818348ab740323ed488f2df4
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../resources/images.qrc">:/Icon/Icon_reload.png</pixmap>
+   </property>
+  </widget>
+<<<<<<< HEAD
+  <widget class="QLabel" name="maplabel">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>80</y>
+     <width>384</width>
+     <height>288</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>384</width>
+     <height>288</height>
+    </size>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+=======
+>>>>>>> 4558e7379e7769e4818348ab740323ed488f2df4
+ </widget>
+ <resources>
+  <include location="../resources/images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
