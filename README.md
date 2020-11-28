@@ -6,8 +6,7 @@ ROS Programming Project from Hanium Contest
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-![screenshot]()
+![Appmain](https://user-images.githubusercontent.com/48177363/100516779-8b49f700-31c9-11eb-809d-1cdfa6ce991f.PNG)
 
 We make a self-driving robot that escort customers to their destinations. 
 Expecting commercialization at department stores or shopping centers.
